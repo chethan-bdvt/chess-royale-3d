@@ -1,0 +1,9 @@
+{
+  "name": "chess-royale-functions",
+  "private": true,
+  "main": "lib/index.js",
+  "engines": { "node": "22" },
+  "scripts": { "build": "tsc", "deploy": "firebase deploy --only functions" },
+  "dependencies": { "chess.js": "^1.4.0", "firebase-admin": "^14.5.1", "firebase-functions": "^7.4.0" },
+  "devDependencies": { "typescript": "~5.9.2" }
+}

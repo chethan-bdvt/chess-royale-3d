@@ -1,0 +1,16 @@
+export const colors = {
+  background: '#080B14',
+  panel: '#111827',
+  panelRaised: '#182235',
+  gold: '#F4C95D',
+  goldDark: '#9A7020',
+  text: '#F8FAFC',
+  muted: '#94A3B8',
+  green: '#42D392',
+  red: '#FB7185',
+  blue: '#60A5FA',
+  lightSquare: '#D9C7A4',
+  darkSquare: '#6C4D35',
+  selection: '#F7D154',
+  legal: '#50C878',
+};

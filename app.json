@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Chess Royale 3D",
+    "slug": "chess-royale-3d",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "chessroyale",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.chessroyale",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.example.chessroyale",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B1020"
+      }
+    },
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080B14"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
+  }
+}

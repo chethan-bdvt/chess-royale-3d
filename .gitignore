@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+dist-test/
+android/
+ios/
+.env
+*.jks
+*.keystore
+GoogleService-Info.plist
+google-services.json
+npm-debug.log*

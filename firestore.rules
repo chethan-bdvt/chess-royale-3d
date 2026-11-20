@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /rooms/{roomId} {
+      allow create: if false;
+      allow read: if request.auth != null
+        && (resource.data.hostId == request.auth.uid
+          || resource.data.guestId == request.auth.uid
+          || resource.data.status == 'waiting');
+      allow update, delete: if false;
+    }
+  }
+}
